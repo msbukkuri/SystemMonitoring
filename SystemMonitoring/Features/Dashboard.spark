@@ -1,0 +1,7 @@
+﻿﻿<use namespace="System.Linq" />
+<viewdata model="SystemMonitoring.Features.DashboardViewModel" />
+<content:main>
+  <div class="content">
+    Test
+  </div>
+</content:main>
