@@ -32,10 +32,8 @@ c:\Users\Maanas Bukkuri\Documents\Visual Studio 2010\Projects\SignalRTest\Signal
 c:\Users\Maanas Bukkuri\Documents\Visual Studio 2010\Projects\SignalRTest\SignalRTest\bin\Microsoft.Practices.ServiceLocation.xml
 c:\Users\Maanas Bukkuri\Documents\Visual Studio 2010\Projects\SignalRTest\SignalRTest\bin\StructureMap.pdb
 c:\Users\Maanas Bukkuri\Documents\Visual Studio 2010\Projects\SignalRTest\SignalRTest\bin\StructureMap.xml
-C:\githubrepositories\systemmonitoring\SystemMonitoring\obj\Debug\ResolveAssemblyReference.cache
-C:\githubrepositories\systemmonitoring\SystemMonitoring\obj\Debug\SignalRTest.dll
-C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\SignalRTest.dll
-C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\SignalRTest.pdb
+C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\SystemMonitoring.dll
+C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\SystemMonitoring.pdb
 C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\Bottles.dll
 C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\FubuCore.dll
 C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\FubuLocalization.dll
@@ -64,4 +62,6 @@ C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\Newtonsoft.Json.pdb
 C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\Newtonsoft.Json.xml
 C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\StructureMap.pdb
 C:\githubrepositories\systemmonitoring\SystemMonitoring\bin\StructureMap.xml
-C:\githubrepositories\systemmonitoring\SystemMonitoring\obj\Debug\SignalRTest.pdb
+C:\githubrepositories\systemmonitoring\SystemMonitoring\obj\Debug\ResolveAssemblyReference.cache
+C:\githubrepositories\systemmonitoring\SystemMonitoring\obj\Debug\SystemMonitoring.dll
+C:\githubrepositories\systemmonitoring\SystemMonitoring\obj\Debug\SystemMonitoring.pdb

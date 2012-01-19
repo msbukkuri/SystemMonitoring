@@ -4,6 +4,7 @@ using FubuMVC.Core;
 using FubuMVC.StructureMap;
 using StructureMap;
 using SystemMonitoring.Configuration;
+using SystemMonitoring.Configuration.Bootstrapping;
 
 // You can remove the reference to WebActivator by calling the Start() method from your Global.asax Application_Start
 [assembly: WebActivator.PreApplicationStartMethod(typeof(SystemMonitoring.App_Start.AppStartFubuMVC), "Start", callAfterGlobalAppStart: true)]
@@ -16,10 +17,11 @@ namespace SystemMonitoring.App_Start
         {
             // FubuApplication "guides" the bootstrapping of the FubuMVC
             // application
-            FubuApplication.For<SystemMonitoringRegistry>() // ConfigureFubuMVC is the main FubuRegistry
-                                                    // for this application.  FubuRegistry classes 
-                                                    // are used to register conventions, policies,
-                                                    // and various other parts of a FubuMVC application
+            FubuApplication.
+                For<SystemMonitoringRegistry>() // ConfigureFubuMVC is the main FubuRegistry
+                // for this application.  FubuRegistry classes 
+                // are used to register conventions, policies,
+                // and various other parts of a FubuMVC application
 
 
                 // FubuMVC requires an IoC container for its own internals.
@@ -27,11 +29,12 @@ namespace SystemMonitoring.App_Start
                 // but FubuMVC just adds configuration to an IoC container so
                 // that you can use the native registration API's for your
                 // IoC container for the rest of your application
-                .StructureMap(new Container())
+                //.StructureMap(new Container())
+                .StructureMapObjectFactory(x => x.AddRegistry<CoreRegistry>())
                 .Bootstrap();
 
-			// Ensure that no errors occurred during bootstrapping
-			PackageRegistry.AssertNoFailures();
+            // Ensure that no errors occurred during bootstrapping
+            PackageRegistry.AssertNoFailures();
         }
     }
 }

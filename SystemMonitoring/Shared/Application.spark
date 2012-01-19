@@ -15,7 +15,7 @@
         <script type="text/javascript" src="../Content/scripts/master.js"></script>
     </head>
     <body>
-        <div class="topbar">
+        <!--<div class="topbar">
             <div class="fill">
                 <div class="container">
                     <a class="brand" href="#">test!</a>
@@ -28,7 +28,7 @@
         <div class="page-header">
             <h2>
                 TEST</h2>
-        </div>
+        </div> -->
         <div class="container">
             <use content="main" />
         </div>
