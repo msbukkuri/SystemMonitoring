@@ -3,6 +3,7 @@ using Bottles;
 using FubuMVC.Core;
 using FubuMVC.StructureMap;
 using StructureMap;
+using SystemMonitoring.Configuration;
 
 // You can remove the reference to WebActivator by calling the Start() method from your Global.asax Application_Start
 [assembly: WebActivator.PreApplicationStartMethod(typeof(SystemMonitoring.App_Start.AppStartFubuMVC), "Start", callAfterGlobalAppStart: true)]
@@ -15,7 +16,7 @@ namespace SystemMonitoring.App_Start
         {
             // FubuApplication "guides" the bootstrapping of the FubuMVC
             // application
-            FubuApplication.For<ConfigureFubuMVC>() // ConfigureFubuMVC is the main FubuRegistry
+            FubuApplication.For<SystemMonitoringRegistry>() // ConfigureFubuMVC is the main FubuRegistry
                                                     // for this application.  FubuRegistry classes 
                                                     // are used to register conventions, policies,
                                                     // and various other parts of a FubuMVC application

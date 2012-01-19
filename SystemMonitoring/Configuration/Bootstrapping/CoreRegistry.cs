@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using StructureMap.Configuration.DSL;
+using SystemMonitoring.Repositories;
 
 namespace SystemMonitoring.Configuration.Bootstrapping
 {
@@ -15,6 +16,9 @@ namespace SystemMonitoring.Configuration.Bootstrapping
                         x.TheCallingAssembly();
                         x.LookForRegistries();
                         x.WithDefaultConventions();
+
+                        For<IRepository>().
+                            Use<ClientRepository>();
                     });
         }
     }

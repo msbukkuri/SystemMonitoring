@@ -117,7 +117,6 @@
     <Compile Include="App_Start\FubuMVC.cs" />
     <Compile Include="Configuration\Bootstrapping\CoreRegistry.cs" />
     <Compile Include="Configuration\SystemMonitoringRegistry.cs" />
-    <Compile Include="ConfigureFubuMVC.cs" />
     <Compile Include="Features\FeaturesMarker.cs" />
     <Compile Include="Features\GetHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

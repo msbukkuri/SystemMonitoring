@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemMonitoring", "SignalRTest\SystemMonitoring.csproj", "{117FAB3C-F503-4DC5-91CD-9EF432394BCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemMonitoring", "SystemMonitoring\SystemMonitoring.csproj", "{117FAB3C-F503-4DC5-91CD-9EF432394BCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
