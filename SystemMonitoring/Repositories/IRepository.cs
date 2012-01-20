@@ -41,7 +41,7 @@ namespace SystemMonitoring.Repositories
                     }
                 },
                 Id = Guid.NewGuid().ToString(),
-                Name = "Client 1"
+                Name = "7-11"
             });
             _clientList.Add(new Client()
             {
@@ -67,7 +67,7 @@ namespace SystemMonitoring.Repositories
                     }
                 },
                 Id = Guid.NewGuid().ToString(),
-                Name = "Client 2"
+                Name = "Barnes & Noble"
             });
 
             _clientList.Add(new Client()
@@ -94,7 +94,7 @@ namespace SystemMonitoring.Repositories
                     }
                 },
                 Id = Guid.NewGuid().ToString(),
-                Name = "Client 3"
+                Name = "Steinmart"
             });
         }
 

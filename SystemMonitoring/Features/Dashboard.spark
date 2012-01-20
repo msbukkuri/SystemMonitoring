@@ -2,6 +2,11 @@
 <viewdata model="SystemMonitoring.Features.DashboardViewModel" />
 <content:main>
   <div class="content">
-    Test
+    <table>
+		<tr each="var c in Model.Clients">${c.Name}</tr>
+	</table>
+	<table>
+		<tr each="var a in Model.Clients">${c.Name}</tr>
+	</table>
   </div>
 </content:main>
