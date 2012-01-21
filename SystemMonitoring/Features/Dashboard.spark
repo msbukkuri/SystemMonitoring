@@ -6,7 +6,7 @@
 		<tr each="var c in Model.Clients">${c.Name}</tr>
 	</table>
 	<table>
-		<tr each="var a in Model.Clients">${c.Name}</tr>
+		<tr each="var a in Model.Clients">${a.Name}</tr>
 	</table>
   </div>
 </content:main>
